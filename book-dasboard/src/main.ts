@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { HeaderComponent } from './components/header/header.component';
-import { TableWidgetComponent } from './components/widgets/table-widget/table-widget.component';
-import { ListWidgetComponent } from './components/widgets/list-widget/list-widget.component';
-import { ChartWidgetComponent } from './components/widgets/chart-widget/chart-widget.component';
+import { SidebarComponent } from './app/components//sidebar/sidebar.component';
+import { HeaderComponent } from './app/components/header/header.component';
+import { TableWidgetComponent } from './app/components/widgets/table-widget/table-widget.component';
+import { ListWidgetComponent } from './app/components/widgets/list-widget/list-widget.component';
+import { ChartWidgetComponent } from './app/components/widgets/chart-widget/chart-widget.component';
 
 @Component({
   selector: 'app-root',
